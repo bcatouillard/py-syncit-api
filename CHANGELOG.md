@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/bcatouillard/py-syncit-api/compare/syncit-api-v1.2.0...syncit-api-v1.2.1) (2026-02-05)
+
+
+### Bug Fixes
+
+* **ci:** fixing build ci ([93b4018](https://github.com/bcatouillard/py-syncit-api/commit/93b40189e23a241e203524cce3048914fc2effc1))
+
 ## [1.2.0](https://github.com/bcatouillard/py-syncit-api/compare/syncit-api-v1.1.0...syncit-api-v1.2.0) (2026-02-05)
 
 
