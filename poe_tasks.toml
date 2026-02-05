@@ -1,0 +1,29 @@
+[tasks]
+"db:migrate" = "uv run alembic upgrade head"
+"dev" = "uv run fastapi dev src/py_sync_it_api/app.py --reload"
+"lint:all" = [
+    "ruff:lint",
+    "ruff:fmt:check",
+    "pylint",
+    "pyright",
+]
+pylint = [
+    "pylint:run",
+]
+"pylint:run" = "pylint py_sync_it_api tests"
+pyright = [
+    "pyright:run",
+]
+"pyright:run" = "pyright"
+"pytest:cov" = "pytest --cov src --cov-report=xml --cov-report=term-missing --cov-branch"
+"ruff:fmt:check" = "ruff format --check"
+"ruff:fmt:run" = "ruff format"
+"ruff:lint" = "ruff check"
+"ruff:lint:fix" = "ruff check --fix"
+style = [
+    "ruff:fmt:run",
+]
+test = "pytest"
+"test:cov" = [
+    "pytest:cov",
+]

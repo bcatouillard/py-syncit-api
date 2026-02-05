@@ -1,0 +1,24 @@
+_commit: 62d29b1
+_src_path: .
+additional_docs_reference: null
+app_name: py-sync-it-api
+app_type: library
+enable_additional_docs_reference: true
+enable_editorconfig_custom_config: false
+enable_gitignore_custom_config: false
+github_repo_slug: py-sync-it-api
+package_manager: uv
+package_name: py_sync_it_api
+project_name: py-sync-it-api
+python_minor_version: '3.12'
+repo_description: 'This repository hosts the python project py-sync-it-api.
+
+
+
+
+
+
+
+
+    '
+uv_project_type: single-package

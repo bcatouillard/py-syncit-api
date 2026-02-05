@@ -1,0 +1,8 @@
+---
+globs:
+  - '**/*.md'
+  - '!.venv*/**/*.md'
+  - '!**/.tox/**/*.md'
+  - '!**/.pytest_cache'
+  - '!**/.terraform'
+  - '!CHANGELOG.md'

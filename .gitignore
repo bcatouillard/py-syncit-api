@@ -1,0 +1,71 @@
+#
+# This file is managed by the Component Template
+# You should not edit it manually or you will have to resolve conflicts during template updates
+# If you need to add something, please rerun the template
+# with 'make copier-update COPIER_SKIP_ANSWERED=no'
+# and pay attention to the custom gitignore configuration question
+#
+# Vscode
+.vscode/settings.json
+
+# IntelliJ and friends
+.idea
+*.iml
+
+# macos
+.DS_Store
+
+# Generated folder
+generated/
+
+# gcp WIF creds
+*_credentials.json
+gha-creds-*.json
+
+# Python
+.venv
+dist/
+sdist/
+eggs/
+.eggs/
+*.egg-info
+# PyInstaller
+# Usually these files are written by a python script from a template
+# before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+.env
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.scannerwork
+.ropeproject
+__pycache__
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.ruff_cache
+*.py[cod]
+*$py.class
+.tox
+
+.scannerwork
+
+# mise local configuration
+mise.local.toml
+.mise.local.toml
+
+
+# Your custom gitignore configuration if needed
+k8s
+# Trick to get a clean end of file, don't remove it
