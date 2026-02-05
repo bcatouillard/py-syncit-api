@@ -6,7 +6,10 @@
       "release-type": "python",
       "package-name": "syncit-api",
       "changelog-path": "CHANGELOG.md",
-      "extra-files": ["version.txt"]
+      "extra-files": ["version.txt"],
+      "include-component-in-tag": false,
+      "include-v-in-tag": true,
+      "include-v-in-release-name": true
     }
   }
 }
