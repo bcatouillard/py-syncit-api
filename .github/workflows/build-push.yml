@@ -2,8 +2,8 @@
 name: Build & Push image
 
 on:
-  push:
-    branches: [main]
+  release:
+    types: published
 
 env:
   ACTIONS_RUNNER_DEBUG: true
