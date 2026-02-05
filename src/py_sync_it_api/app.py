@@ -26,7 +26,6 @@ from .shared.settings import Settings
 async def lifespan(app: FastAPI):  # noqa: ANN201, ARG001
     """Permits to manage setup and teardown of the FastAPI instance."""
     try:
-        # Setup logger
         setup_logger(debug_mode=Settings.get().DEBUG)
     except Exception as e:
         logger.error("Logger Initialization Failed", e)
