@@ -2,7 +2,7 @@
 name: Build & Push image
 
 on:
-  pull_request:
+  push:
     branches: [main]
 
 env:
@@ -39,4 +39,4 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME}}/synchronizer-api:latest
+          tags: ${{ secrets.DOCKER_USERNAME}}/synchronizer-api:${{ github.event_name == 'release' && github.event.release.name || '' }}
