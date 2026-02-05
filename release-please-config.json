@@ -4,7 +4,7 @@
   "packages": {
     ".": {
       "release-type": "python",
-      "package-name": "my-awesome-app",
+      "package-name": "syncit-api",
       "changelog-path": "CHANGELOG.md",
       "extra-files": ["version.txt"]
     }
