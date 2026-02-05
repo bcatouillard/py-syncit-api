@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/bcatouillard/py-syncit-api/compare/syncit-api-v1.1.0...syncit-api-v1.2.0) (2026-02-05)
+
+
+### Features
+
+* **app:** remove comment ([550645a](https://github.com/bcatouillard/py-syncit-api/commit/550645a19b22bea54f31dd402bf179939da8dcb3))
+
 ## [1.1.0](https://github.com/bcatouillard/syncit-api/compare/syncit-api-v1.0.0...syncit-api-v1.1.0) (2026-02-05)
 
 
