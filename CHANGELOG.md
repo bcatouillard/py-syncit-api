@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/bcatouillard/py-syncit-api/compare/v1.3.0...v1.3.1) (2026-02-12)
+
+
+### Bug Fixes
+
+* **dockerfile:** fixing missing install ([7bc9764](https://github.com/bcatouillard/py-syncit-api/commit/7bc97643d81de3a04ccfeecdbcad7330a4a420cd))
+
 ## [1.3.0](https://github.com/bcatouillard/py-syncit-api/compare/v1.2.1...v1.3.0) (2026-02-05)
 
 
