@@ -18,7 +18,7 @@ COPY --from=build_stage /app/requirements.txt .
 ARG AUTHED_ARTIFACT_REG_URL
 ENV PYTHONUNBUFFERED=1
 
-RUN pip3 install --no-cache --upgrade pip setuptools
+RUN pip3 install --no-cache --upgrade pip setuptools && pip3 install --no-cache-dir --upgrade -r requirements.txt
 
 USER 1001
 
